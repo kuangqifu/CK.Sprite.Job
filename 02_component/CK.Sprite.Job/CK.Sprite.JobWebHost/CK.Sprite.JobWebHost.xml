@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CK.Sprite.JobWebHost</name>
+    </assembly>
+    <members>
+        <member name="T:CK.Sprite.JobWebHost.Controllers.JobManagerController">
+            <summary>
+            定时作业
+            </summary>
+        </member>
+        <member name="M:CK.Sprite.JobWebHost.Controllers.JobManagerController.ActiveJob(System.Guid,System.Boolean)">
+            <summary>
+            激活job或取消激活job
+            </summary>
+            <param name="id">job id</param>
+            <param name="isActive">是否激活</param>
+            <returns></returns>
+        </member>
+        <member name="T:CK.Sprite.JobWebHost.RemoteServiceErrorInfo">
+            <summary>
+            Used to store information about an error.
+            </summary>
+        </member>
+        <member name="P:CK.Sprite.JobWebHost.RemoteServiceErrorInfo.Code">
+            <summary>
+            Error code.
+            </summary>
+        </member>
+        <member name="P:CK.Sprite.JobWebHost.RemoteServiceErrorInfo.Message">
+            <summary>
+            Error message.
+            </summary>
+        </member>
+        <member name="P:CK.Sprite.JobWebHost.RemoteServiceErrorInfo.Details">
+            <summary>
+            Error details.
+            </summary>
+        </member>
+        <member name="P:CK.Sprite.JobWebHost.RemoteServiceErrorInfo.ValidationErrors">
+            <summary>
+            Validation errors if exists.
+            </summary>
+        </member>
+        <member name="M:CK.Sprite.JobWebHost.RemoteServiceErrorInfo.#ctor">
+            <summary>
+            Creates a new instance of <see cref="T:CK.Sprite.JobWebHost.RemoteServiceErrorInfo"/>.
+            </summary>
+        </member>
+        <member name="M:CK.Sprite.JobWebHost.RemoteServiceErrorInfo.#ctor(System.String,System.String,System.String)">
+            <summary>
+            Creates a new instance of <see cref="T:CK.Sprite.JobWebHost.RemoteServiceErrorInfo"/>.
+            </summary>
+            <param name="code">Error code</param>
+            <param name="details">Error details</param>
+            <param name="message">Error message</param>
+        </member>
+        <member name="T:CK.Sprite.JobWebHost.RemoteServiceValidationErrorInfo">
+            <summary>
+            Used to store information about a validation error.
+            </summary>
+        </member>
+        <member name="P:CK.Sprite.JobWebHost.RemoteServiceValidationErrorInfo.Message">
+            <summary>
+            Validation error message.
+            </summary>
+        </member>
+        <member name="P:CK.Sprite.JobWebHost.RemoteServiceValidationErrorInfo.Members">
+            <summary>
+            Relate invalid members (fields/properties).
+            </summary>
+        </member>
+        <member name="M:CK.Sprite.JobWebHost.RemoteServiceValidationErrorInfo.#ctor">
+            <summary>
+            Creates a new instance of <see cref="T:CK.Sprite.JobWebHost.RemoteServiceValidationErrorInfo"/>.
+            </summary>
+        </member>
+        <member name="M:CK.Sprite.JobWebHost.RemoteServiceValidationErrorInfo.#ctor(System.String)">
+            <summary>
+            Creates a new instance of <see cref="T:CK.Sprite.JobWebHost.RemoteServiceValidationErrorInfo"/>.
+            </summary>
+            <param name="message">Validation error message</param>
+        </member>
+        <member name="M:CK.Sprite.JobWebHost.RemoteServiceValidationErrorInfo.#ctor(System.String,System.String[])">
+            <summary>
+            Creates a new instance of <see cref="T:CK.Sprite.JobWebHost.RemoteServiceValidationErrorInfo"/>.
+            </summary>
+            <param name="message">Validation error message</param>
+            <param name="members">Related invalid members</param>
+        </member>
+        <member name="M:CK.Sprite.JobWebHost.RemoteServiceValidationErrorInfo.#ctor(System.String,System.String)">
+            <summary>
+            Creates a new instance of <see cref="T:CK.Sprite.JobWebHost.RemoteServiceValidationErrorInfo"/>.
+            </summary>
+            <param name="message">Validation error message</param>
+            <param name="member">Related invalid member</param>
+        </member>
+    </members>
+</doc>

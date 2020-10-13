@@ -1,0 +1,357 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CK.Sprite.JobCore</name>
+    </assembly>
+    <members>
+        <member name="T:CK.Sprite.JobCore.HolidayCalendarDto">
+            <summary>
+            假期配置
+            </summary>
+        </member>
+        <member name="P:CK.Sprite.JobCore.HolidayCalendarDto.Id">
+            <summary>
+            主键
+            </summary>
+        </member>
+        <member name="P:CK.Sprite.JobCore.HolidayCalendarDto.Description">
+            <summary>
+            job描述
+            </summary>
+        </member>
+        <member name="P:CK.Sprite.JobCore.HolidayCalendarDto.Config">
+            <summary>
+            假期值，用;号隔开
+            </summary>
+        </member>
+        <member name="M:CK.Sprite.JobCore.IJobManagerAppService.AddJob(CK.Sprite.JobCore.JobConfigDto)">
+            <summary>
+            新增Job，直接加入调度
+            </summary>
+            <param name="jobConfig">job配置</param>
+            <returns></returns>
+        </member>
+        <member name="M:CK.Sprite.JobCore.IJobManagerAppService.UpdateJob(CK.Sprite.JobCore.JobConfigDto)">
+            <summary>
+            修改job，先移除job调度，再添加job调度
+            </summary>
+            <param name="jobConfig"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CK.Sprite.JobCore.IJobManagerAppService.DeleteJob(System.Guid)">
+            <summary>
+            删除job
+            </summary>
+            <param name="id">job id</param>
+            <returns></returns>
+        </member>
+        <member name="M:CK.Sprite.JobCore.IJobManagerAppService.ActiveJob(System.Guid,System.Boolean)">
+            <summary>
+            激活job或取消激活job
+            </summary>
+            <param name="id">job id</param>
+            <param name="isActive">是否激活</param>
+            <returns></returns>
+        </member>
+        <member name="M:CK.Sprite.JobCore.IJobManagerAppService.AddHolidayCalendar(CK.Sprite.JobCore.HolidayCalendarDto)">
+            <summary>
+            增加假期
+            </summary>
+            <param name="holidayCalendar">假期配置</param>
+            <returns></returns>
+        </member>
+        <member name="M:CK.Sprite.JobCore.IJobManagerAppService.UpdateHolidayCalendar(CK.Sprite.JobCore.HolidayCalendarDto)">
+            <summary>
+            修改假期
+            </summary>
+            <param name="holidayCalendar">假期配置</param>
+            <returns></returns>
+        </member>
+        <member name="M:CK.Sprite.JobCore.IJobManagerAppService.GetAllJobConfigs">
+            <summary>
+            获取数据库所有job配置
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CK.Sprite.JobCore.IJobManagerAppService.GetAllQuartzJobConfigs">
+            <summary>
+            获取运行中的job信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CK.Sprite.JobCore.IJobManagerAppService.TriggerJob(System.Guid)">
+            <summary>
+            立即执行job
+            </summary>
+            <param name="id">job id</param>
+            <returns></returns>
+        </member>
+        <member name="M:CK.Sprite.JobCore.IJobManagerAppService.PauseJob(System.Guid)">
+            <summary>
+            暂停job
+            </summary>
+            <param name="id">job id</param>
+            <returns></returns>
+        </member>
+        <member name="M:CK.Sprite.JobCore.IJobManagerAppService.PauseAll">
+            <summary>
+            暂停所有job
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CK.Sprite.JobCore.IJobManagerAppService.ResumeJob(System.Guid)">
+            <summary>
+            恢复job
+            </summary>
+            <param name="id">job id</param>
+            <returns></returns>
+        </member>
+        <member name="M:CK.Sprite.JobCore.IJobManagerAppService.ResumeAll">
+            <summary>
+            恢复所有job
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:CK.Sprite.JobCore.JobConfigDto">
+            <summary>
+            Job配置Dto
+            </summary>
+        </member>
+        <member name="P:CK.Sprite.JobCore.JobConfigDto.Id">
+            <summary>
+            主键
+            </summary>
+        </member>
+        <member name="P:CK.Sprite.JobCore.JobConfigDto.JobGroup">
+            <summary>
+            Job分组，为空时，添加到默认组
+            </summary>
+        </member>
+        <member name="P:CK.Sprite.JobCore.JobConfigDto.Description">
+            <summary>
+            job描述
+            </summary>
+        </member>
+        <member name="P:CK.Sprite.JobCore.JobConfigDto.TriggerType">
+            <summary>
+            触发器类型
+            </summary>
+        </member>
+        <member name="P:CK.Sprite.JobCore.JobConfigDto.StartTime">
+            <summary>
+            触发器开始时间，触发器类型为At时，必须指定
+            </summary>
+        </member>
+        <member name="P:CK.Sprite.JobCore.JobConfigDto.EndTime">
+            <summary>
+            触发器结束时间
+            </summary>
+        </member>
+        <member name="P:CK.Sprite.JobCore.JobConfigDto.CronConfig">
+            <summary>
+            Cron触发器配置
+            </summary>
+        </member>
+        <member name="P:CK.Sprite.JobCore.JobConfigDto.SimpleIntervalUnit">
+            <summary>
+            简单触发器，循环单位
+            </summary>
+        </member>
+        <member name="P:CK.Sprite.JobCore.JobConfigDto.SimpleIntervalValue">
+            <summary>
+            简单触发器，循环值
+            </summary>
+        </member>
+        <member name="P:CK.Sprite.JobCore.JobConfigDto.ExecCount">
+            <summary>
+            最多执行次数，不设置时，为一直执行
+            </summary>
+        </member>
+        <member name="P:CK.Sprite.JobCore.JobConfigDto.Priority">
+            <summary>
+            优先级(同一时间执行时生效)
+            </summary>
+        </member>
+        <member name="P:CK.Sprite.JobCore.JobConfigDto.IsActive">
+            <summary>
+            是否激活
+            </summary>
+        </member>
+        <member name="P:CK.Sprite.JobCore.JobConfigDto.HolidayCalendarId">
+            <summary>
+            假期配置Id
+            </summary>
+        </member>
+        <member name="P:CK.Sprite.JobCore.JobConfigDto.JobName">
+            <summary>
+            Job名称
+            </summary>
+        </member>
+        <member name="P:CK.Sprite.JobCore.JobConfigDto.Params">
+            <summary>
+            job执行参数
+            </summary>
+        </member>
+        <member name="P:CK.Sprite.JobCore.JobConfigDto.JobExecType">
+            <summary>
+            job执行类型
+            </summary>
+        </member>
+        <member name="P:CK.Sprite.JobCore.JobConfigDto.ExecLocation">
+            <summary>
+            用地址(api时为url，reflect时为类定义信息)
+            </summary>
+        </member>
+        <member name="T:CK.Sprite.JobCore.HolidayCalendar">
+            <summary>
+            假期配置
+            </summary>
+        </member>
+        <member name="P:CK.Sprite.JobCore.HolidayCalendar.Description">
+            <summary>
+            job描述
+            </summary>
+        </member>
+        <member name="P:CK.Sprite.JobCore.HolidayCalendar.Config">
+            <summary>
+            假期值，用;号隔开
+            </summary>
+        </member>
+        <member name="T:CK.Sprite.JobCore.JobConfig">
+            <summary>
+            Job配置
+            </summary>
+        </member>
+        <member name="P:CK.Sprite.JobCore.JobConfig.JobGroup">
+            <summary>
+            Job分组，为空时，添加到默认组
+            </summary>
+        </member>
+        <member name="P:CK.Sprite.JobCore.JobConfig.Description">
+            <summary>
+            job描述
+            </summary>
+        </member>
+        <member name="P:CK.Sprite.JobCore.JobConfig.TriggerType">
+            <summary>
+            触发器类型
+            </summary>
+        </member>
+        <member name="P:CK.Sprite.JobCore.JobConfig.StartTime">
+            <summary>
+            触发器开始时间，触发器类型为At时，必须指定
+            </summary>
+        </member>
+        <member name="P:CK.Sprite.JobCore.JobConfig.EndTime">
+            <summary>
+            触发器结束时间
+            </summary>
+        </member>
+        <member name="P:CK.Sprite.JobCore.JobConfig.CronConfig">
+            <summary>
+            Cron触发器配置
+            </summary>
+        </member>
+        <member name="P:CK.Sprite.JobCore.JobConfig.SimpleIntervalUnit">
+            <summary>
+            简单触发器，循环单位
+            </summary>
+        </member>
+        <member name="P:CK.Sprite.JobCore.JobConfig.SimpleIntervalValue">
+            <summary>
+            简单触发器，循环值
+            </summary>
+        </member>
+        <member name="P:CK.Sprite.JobCore.JobConfig.ExecCount">
+            <summary>
+            最多执行次数，不设置时，为一直执行
+            </summary>
+        </member>
+        <member name="P:CK.Sprite.JobCore.JobConfig.Priority">
+            <summary>
+            优先级(同一时间执行时生效)
+            </summary>
+        </member>
+        <member name="P:CK.Sprite.JobCore.JobConfig.IsActive">
+            <summary>
+            是否激活
+            </summary>
+        </member>
+        <member name="P:CK.Sprite.JobCore.JobConfig.HolidayCalendarId">
+            <summary>
+            假期配置Id
+            </summary>
+        </member>
+        <member name="P:CK.Sprite.JobCore.JobConfig.JobName">
+            <summary>
+            Job名称
+            </summary>
+        </member>
+        <member name="P:CK.Sprite.JobCore.JobConfig.Params">
+            <summary>
+            job执行参数
+            </summary>
+        </member>
+        <member name="P:CK.Sprite.JobCore.JobConfig.JobExecType">
+            <summary>
+            job执行类型
+            </summary>
+        </member>
+        <member name="P:CK.Sprite.JobCore.JobConfig.ExecLocation">
+            <summary>
+            用地址(api时为url，reflect时为类定义信息)
+            </summary>
+        </member>
+        <member name="M:CK.Sprite.JobCore.IJobConfigRepository.GetActiveJobConfigs">
+            <summary>
+            获取激活的Job配置
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:CK.Sprite.JobCore.ETriggerType">
+            <summary>
+            触发器类型
+            </summary>
+        </member>
+        <member name="F:CK.Sprite.JobCore.ETriggerType.Simple">
+            <summary>
+            简单触发器，只处理简单时间间隔
+            </summary>
+        </member>
+        <member name="F:CK.Sprite.JobCore.ETriggerType.Cron">
+            <summary>
+            复杂触发器定义，参考(https://www.quartz-scheduler.net/documentation/quartz-3.x/tutorial/crontrigger.html#introduction)
+            </summary>
+        </member>
+        <member name="F:CK.Sprite.JobCore.ETriggerType.At">
+            <summary>
+            具体时间点
+            </summary>
+        </member>
+        <member name="T:CK.Sprite.JobCore.EIntervalUnit">
+            <summary>
+            循环间隔单位
+            </summary>
+        </member>
+        <member name="T:CK.Sprite.JobCore.EJobExecType">
+            <summary>
+            job执行类型
+            </summary>
+        </member>
+        <member name="P:CK.Sprite.JobCore.CallApiParam.MethodType">
+            <summary>
+            请求类型，Post=1，只支持Post(使用者传递参数容易出错误)
+            </summary>
+        </member>
+        <member name="P:CK.Sprite.JobCore.CallApiParam.Params">
+            <summary>
+            执行参数
+            </summary>
+        </member>
+        <member name="P:CK.Sprite.JobCore.CallApiParam.CallLocationHostType">
+            <summary>
+            请求地址host前缀类型，GateWay=1；如果ExecLocation带http前缀，则此参数无效
+            </summary>
+        </member>
+    </members>
+</doc>

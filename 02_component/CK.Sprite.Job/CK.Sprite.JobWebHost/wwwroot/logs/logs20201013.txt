@@ -1,0 +1,64 @@
+2020-10-13 18:57:41.190 +08:00 [INF] Default Quartz.NET properties loaded from embedded resource file
+2020-10-13 18:57:41.312 +08:00 [INF] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2020-10-13 18:57:41.314 +08:00 [INF] Quartz Scheduler v.3.1.0.0 created.
+2020-10-13 18:57:41.315 +08:00 [INF] RAMJobStore initialized.
+2020-10-13 18:57:41.317 +08:00 [INF] Scheduler meta-data: Quartz Scheduler (v3.1.0.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-10-13 18:57:41.318 +08:00 [INF] Quartz scheduler 'DefaultQuartzScheduler' initialized
+2020-10-13 18:57:41.318 +08:00 [INF] Quartz scheduler version: 3.1.0.0
+2020-10-13 18:57:42.055 +08:00 [INF] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2020-10-13 18:57:42.122 +08:00 [INF] JobToBeExecuted:d3ee3530-3fb0-47af-be73-9c9d7a954a4c_simple test_job#Test
+2020-10-13 18:59:29.899 +08:00 [INF] Default Quartz.NET properties loaded from embedded resource file
+2020-10-13 18:59:30.014 +08:00 [INF] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2020-10-13 18:59:30.015 +08:00 [INF] Quartz Scheduler v.3.1.0.0 created.
+2020-10-13 18:59:30.016 +08:00 [INF] RAMJobStore initialized.
+2020-10-13 18:59:30.018 +08:00 [INF] Scheduler meta-data: Quartz Scheduler (v3.1.0.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-10-13 18:59:30.019 +08:00 [INF] Quartz scheduler 'DefaultQuartzScheduler' initialized
+2020-10-13 18:59:30.019 +08:00 [INF] Quartz scheduler version: 3.1.0.0
+2020-10-13 18:59:30.616 +08:00 [INF] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2020-10-13 18:59:30.700 +08:00 [INF] JobToBeExecuted:d3ee3530-3fb0-47af-be73-9c9d7a954a4c_simple test_job#Test
+2020-10-13 18:59:31.637 +08:00 [ERR] Job Test.d3ee3530-3fb0-47af-be73-9c9d7a954a4c_simple test_job threw a JobExecutionException: 
+Parameters: refire = False, unscheduleFiringTrigger = False, unscheduleAllTriggers = False 
+ Quartz.JobExecutionException: CallApiJob error: {"Version":"1.1","Content":{"Headers":[{"Key":"Content-Length","Value":["239"]},{"Key":"Content-Type","Value":["text/html; charset=iso-8859-1"]}]},"StatusCode":404,"ReasonPhrase":"Not Found","Headers":[{"Key":"Date","Value":["Tue, 13 Oct 2020 10:59:30 GMT"]},{"Key":"Server","Value":["Apache"]}],"TrailingHeaders":[],"RequestMessage":{"Version":"1.1","Content":{"Headers":[{"Key":"Content-Type","Value":["application/json; charset=utf-8"]},{"Key":"Content-Length","Value":["3"]}]},"Method":{"Method":"POST"},"RequestUri":"https://www.baidu.com/api/messagecenter/test/GetDeptUserIdsTest","Headers":[],"Properties":{}},"IsSuccessStatusCode":false}
+ ---> CK.Sprite.Framework.SpriteException: CallApiJob error: {"Version":"1.1","Content":{"Headers":[{"Key":"Content-Length","Value":["239"]},{"Key":"Content-Type","Value":["text/html; charset=iso-8859-1"]}]},"StatusCode":404,"ReasonPhrase":"Not Found","Headers":[{"Key":"Date","Value":["Tue, 13 Oct 2020 10:59:30 GMT"]},{"Key":"Server","Value":["Apache"]}],"TrailingHeaders":[],"RequestMessage":{"Version":"1.1","Content":{"Headers":[{"Key":"Content-Type","Value":["application/json; charset=utf-8"]},{"Key":"Content-Length","Value":["3"]}]},"Method":{"Method":"POST"},"RequestUri":"https://www.baidu.com/api/messagecenter/test/GetDeptUserIdsTest","Headers":[],"Properties":{}},"IsSuccessStatusCode":false}
+   at CK.Sprite.JobCore.CallApiJob.Execute(IJobExecutionContext context) in C:\document\sprite\sprite-backend\02_component\CK.Sprite.Job\CK.Sprite.JobCore\Domain\CallJob\CallApiJob.cs:line 61
+   --- End of inner exception stack trace ---
+   at CK.Sprite.JobCore.CallApiJob.Execute(IJobExecutionContext context) in C:\document\sprite\sprite-backend\02_component\CK.Sprite.Job\CK.Sprite.JobCore\Domain\CallJob\CallApiJob.cs:line 66
+   at Quartz.Core.JobRunShell.Run(CancellationToken cancellationToken) [See nested exception: CK.Sprite.Framework.SpriteException: CallApiJob error: {"Version":"1.1","Content":{"Headers":[{"Key":"Content-Length","Value":["239"]},{"Key":"Content-Type","Value":["text/html; charset=iso-8859-1"]}]},"StatusCode":404,"ReasonPhrase":"Not Found","Headers":[{"Key":"Date","Value":["Tue, 13 Oct 2020 10:59:30 GMT"]},{"Key":"Server","Value":["Apache"]}],"TrailingHeaders":[],"RequestMessage":{"Version":"1.1","Content":{"Headers":[{"Key":"Content-Type","Value":["application/json; charset=utf-8"]},{"Key":"Content-Length","Value":["3"]}]},"Method":{"Method":"POST"},"RequestUri":"https://www.baidu.com/api/messagecenter/test/GetDeptUserIdsTest","Headers":[],"Properties":{}},"IsSuccessStatusCode":false}
+   at CK.Sprite.JobCore.CallApiJob.Execute(IJobExecutionContext context) in C:\document\sprite\sprite-backend\02_component\CK.Sprite.Job\CK.Sprite.JobCore\Domain\CallJob\CallApiJob.cs:line 61]
+2020-10-13 18:59:31.703 +08:00 [INF] JobWasExecuted:d3ee3530-3fb0-47af-be73-9c9d7a954a4c_simple test_job#Test#测试简单job，每1小时执行一次##2020/10/13 18:59:30#2020/10/13 19:59:30
+2020-10-13 19:02:53.312 +08:00 [INF] Default Quartz.NET properties loaded from embedded resource file
+2020-10-13 19:02:53.435 +08:00 [INF] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2020-10-13 19:02:53.436 +08:00 [INF] Quartz Scheduler v.3.1.0.0 created.
+2020-10-13 19:02:53.437 +08:00 [INF] RAMJobStore initialized.
+2020-10-13 19:02:53.439 +08:00 [INF] Scheduler meta-data: Quartz Scheduler (v3.1.0.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-10-13 19:02:53.439 +08:00 [INF] Quartz scheduler 'DefaultQuartzScheduler' initialized
+2020-10-13 19:02:53.439 +08:00 [INF] Quartz scheduler version: 3.1.0.0
+2020-10-13 19:02:54.197 +08:00 [INF] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2020-10-13 19:05:56.623 +08:00 [INF] JobToBeExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test
+2020-10-13 19:05:56.688 +08:00 [INF] AddJob:{"JobGroup":"Test","Description":"测试简单job，每10秒执行一次","TriggerType":1,"StartTime":null,"EndTime":null,"CronConfig":null,"SimpleIntervalUnit":1,"SimpleIntervalValue":10,"ExecCount":null,"Priority":null,"IsActive":true,"HolidayCalendarId":null,"JobName":"simple test","Params":null,"JobExecType":2,"ExecLocation":"CK.Sprite.JobBusiness.TestExecJob,CK.Sprite.JobBusiness","Id":"2aef4b90-1e09-4124-bec5-eba8c54f6222"}
+2020-10-13 19:05:57.631 +08:00 [INF] 2020/10/13 19:05:57CK.Sprite.JobBusiness.TestExecJob,CK.Sprite.JobBusiness CallReflectJob executed
+2020-10-13 19:05:57.639 +08:00 [INF] JobWasExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test#测试简单job，每10秒执行一次##2020/10/13 19:05:56#2020/10/13 19:06:06
+2020-10-13 19:06:06.545 +08:00 [INF] JobToBeExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test
+2020-10-13 19:06:10.581 +08:00 [INF] 2020/10/13 19:06:10CK.Sprite.JobBusiness.TestExecJob,CK.Sprite.JobBusiness CallReflectJob executed
+2020-10-13 19:06:10.581 +08:00 [INF] JobWasExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test#测试简单job，每10秒执行一次#2020/10/13 19:05:56#2020/10/13 19:06:06#2020/10/13 19:06:16

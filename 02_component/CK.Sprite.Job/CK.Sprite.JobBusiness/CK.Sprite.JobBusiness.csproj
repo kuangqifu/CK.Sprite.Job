@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netstandard2.0</TargetFramework>
+		<AssemblyName>CK.Sprite.JobBusiness</AssemblyName>
+		<PackageId>CK.Sprite.JobBusiness</PackageId>
+		<AssetTargetFallback>$(AssetTargetFallback);portable-net45+win8+wp8+wpa81;</AssetTargetFallback>
+		<GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+		<GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+		<GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+		<RootNamespace />
+	</PropertyGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\..\..\01_framework\CK.Sprite\CK.Sprite.Framework\CK.Sprite.Framework.csproj" />
+	</ItemGroup>
+
+</Project>
