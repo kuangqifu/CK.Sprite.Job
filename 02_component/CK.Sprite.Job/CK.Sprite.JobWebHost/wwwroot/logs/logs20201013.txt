@@ -62,3 +62,228 @@ Parameters: refire = False, unscheduleFiringTrigger = False, unscheduleAllTrigge
 2020-10-13 19:06:06.545 +08:00 [INF] JobToBeExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test
 2020-10-13 19:06:10.581 +08:00 [INF] 2020/10/13 19:06:10CK.Sprite.JobBusiness.TestExecJob,CK.Sprite.JobBusiness CallReflectJob executed
 2020-10-13 19:06:10.581 +08:00 [INF] JobWasExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test#测试简单job，每10秒执行一次#2020/10/13 19:05:56#2020/10/13 19:06:06#2020/10/13 19:06:16
+2020-10-13 19:41:24.493 +08:00 [INF] Default Quartz.NET properties loaded from embedded resource file
+2020-10-13 19:41:24.604 +08:00 [INF] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2020-10-13 19:41:24.605 +08:00 [INF] Quartz Scheduler v.3.1.0.0 created.
+2020-10-13 19:41:24.606 +08:00 [INF] RAMJobStore initialized.
+2020-10-13 19:41:24.608 +08:00 [INF] Scheduler meta-data: Quartz Scheduler (v3.1.0.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-10-13 19:41:24.609 +08:00 [INF] Quartz scheduler 'DefaultQuartzScheduler' initialized
+2020-10-13 19:41:24.609 +08:00 [INF] Quartz scheduler version: 3.1.0.0
+2020-10-13 19:41:25.186 +08:00 [INF] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2020-10-13 19:41:25.250 +08:00 [INF] JobToBeExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test
+2020-10-13 19:41:26.266 +08:00 [INF] 2020/10/13 19:41:26CK.Sprite.JobBusiness.TestExecJob,CK.Sprite.JobBusiness CallReflectJob executed
+2020-10-13 19:41:26.270 +08:00 [INF] JobWasExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test#测试简单job，每10秒执行一次##2020/10/13 19:41:25#2020/10/13 19:41:35
+2020-10-13 19:41:35.172 +08:00 [INF] JobToBeExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test
+2020-10-13 19:41:36.174 +08:00 [INF] 2020/10/13 19:41:36CK.Sprite.JobBusiness.TestExecJob,CK.Sprite.JobBusiness CallReflectJob executed
+2020-10-13 19:41:36.175 +08:00 [INF] JobWasExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test#测试简单job，每10秒执行一次#2020/10/13 19:41:25#2020/10/13 19:41:35#2020/10/13 19:41:45
+2020-10-13 19:41:45.173 +08:00 [INF] JobToBeExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test
+2020-10-13 19:41:46.176 +08:00 [INF] 2020/10/13 19:41:46CK.Sprite.JobBusiness.TestExecJob,CK.Sprite.JobBusiness CallReflectJob executed
+2020-10-13 19:41:46.178 +08:00 [INF] JobWasExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test#测试简单job，每10秒执行一次#2020/10/13 19:41:35#2020/10/13 19:41:45#2020/10/13 19:41:55
+2020-10-13 19:41:55.172 +08:00 [INF] JobToBeExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test
+2020-10-13 19:41:56.173 +08:00 [INF] 2020/10/13 19:41:56CK.Sprite.JobBusiness.TestExecJob,CK.Sprite.JobBusiness CallReflectJob executed
+2020-10-13 19:41:56.173 +08:00 [INF] JobWasExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test#测试简单job，每10秒执行一次#2020/10/13 19:41:45#2020/10/13 19:41:55#2020/10/13 19:42:05
+2020-10-13 19:42:05.177 +08:00 [INF] JobToBeExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test
+2020-10-13 19:42:06.179 +08:00 [INF] 2020/10/13 19:42:06CK.Sprite.JobBusiness.TestExecJob,CK.Sprite.JobBusiness CallReflectJob executed
+2020-10-13 19:42:06.180 +08:00 [INF] JobWasExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test#测试简单job，每10秒执行一次#2020/10/13 19:41:55#2020/10/13 19:42:05#2020/10/13 19:42:15
+2020-10-13 19:42:15.172 +08:00 [INF] JobToBeExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test
+2020-10-13 19:42:16.172 +08:00 [INF] 2020/10/13 19:42:16CK.Sprite.JobBusiness.TestExecJob,CK.Sprite.JobBusiness CallReflectJob executed
+2020-10-13 19:42:16.172 +08:00 [INF] JobWasExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test#测试简单job，每10秒执行一次#2020/10/13 19:42:05#2020/10/13 19:42:15#2020/10/13 19:42:25
+2020-10-13 19:42:25.172 +08:00 [INF] JobToBeExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test
+2020-10-13 19:42:26.173 +08:00 [INF] 2020/10/13 19:42:26CK.Sprite.JobBusiness.TestExecJob,CK.Sprite.JobBusiness CallReflectJob executed
+2020-10-13 19:42:26.173 +08:00 [INF] JobWasExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test#测试简单job，每10秒执行一次#2020/10/13 19:42:15#2020/10/13 19:42:25#2020/10/13 19:42:35
+2020-10-13 19:42:35.172 +08:00 [INF] JobToBeExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test
+2020-10-13 19:42:36.173 +08:00 [INF] 2020/10/13 19:42:36CK.Sprite.JobBusiness.TestExecJob,CK.Sprite.JobBusiness CallReflectJob executed
+2020-10-13 19:42:36.174 +08:00 [INF] JobWasExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test#测试简单job，每10秒执行一次#2020/10/13 19:42:25#2020/10/13 19:42:35#2020/10/13 19:42:45
+2020-10-13 19:42:45.172 +08:00 [INF] JobToBeExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test
+2020-10-13 19:42:46.173 +08:00 [INF] 2020/10/13 19:42:46CK.Sprite.JobBusiness.TestExecJob,CK.Sprite.JobBusiness CallReflectJob executed
+2020-10-13 19:42:46.173 +08:00 [INF] JobWasExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test#测试简单job，每10秒执行一次#2020/10/13 19:42:35#2020/10/13 19:42:45#2020/10/13 19:42:55
+2020-10-13 19:42:55.172 +08:00 [INF] JobToBeExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test
+2020-10-13 19:42:56.172 +08:00 [INF] 2020/10/13 19:42:56CK.Sprite.JobBusiness.TestExecJob,CK.Sprite.JobBusiness CallReflectJob executed
+2020-10-13 19:42:56.172 +08:00 [INF] JobWasExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test#测试简单job，每10秒执行一次#2020/10/13 19:42:45#2020/10/13 19:42:55#2020/10/13 19:43:05
+2020-10-13 19:43:05.172 +08:00 [INF] JobToBeExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test
+2020-10-13 19:43:06.172 +08:00 [INF] 2020/10/13 19:43:06CK.Sprite.JobBusiness.TestExecJob,CK.Sprite.JobBusiness CallReflectJob executed
+2020-10-13 19:43:06.173 +08:00 [INF] JobWasExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test#测试简单job，每10秒执行一次#2020/10/13 19:42:55#2020/10/13 19:43:05#2020/10/13 19:43:15
+2020-10-13 19:43:15.172 +08:00 [INF] JobToBeExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test
+2020-10-13 19:43:16.173 +08:00 [INF] 2020/10/13 19:43:16CK.Sprite.JobBusiness.TestExecJob,CK.Sprite.JobBusiness CallReflectJob executed
+2020-10-13 19:43:16.173 +08:00 [INF] JobWasExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test#测试简单job，每10秒执行一次#2020/10/13 19:43:05#2020/10/13 19:43:15#2020/10/13 19:43:25
+2020-10-13 19:43:25.172 +08:00 [INF] JobToBeExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test
+2020-10-13 19:43:26.174 +08:00 [INF] 2020/10/13 19:43:26CK.Sprite.JobBusiness.TestExecJob,CK.Sprite.JobBusiness CallReflectJob executed
+2020-10-13 19:43:26.174 +08:00 [INF] JobWasExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test#测试简单job，每10秒执行一次#2020/10/13 19:43:15#2020/10/13 19:43:25#2020/10/13 19:43:35
+2020-10-13 19:43:35.173 +08:00 [INF] JobToBeExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test
+2020-10-13 19:43:36.173 +08:00 [INF] 2020/10/13 19:43:36CK.Sprite.JobBusiness.TestExecJob,CK.Sprite.JobBusiness CallReflectJob executed
+2020-10-13 19:43:36.174 +08:00 [INF] JobWasExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test#测试简单job，每10秒执行一次#2020/10/13 19:43:25#2020/10/13 19:43:35#2020/10/13 19:43:45
+2020-10-13 19:43:45.172 +08:00 [INF] JobToBeExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test
+2020-10-13 19:43:46.172 +08:00 [INF] 2020/10/13 19:43:46CK.Sprite.JobBusiness.TestExecJob,CK.Sprite.JobBusiness CallReflectJob executed
+2020-10-13 19:43:46.172 +08:00 [INF] JobWasExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test#测试简单job，每10秒执行一次#2020/10/13 19:43:35#2020/10/13 19:43:45#2020/10/13 19:43:55
+2020-10-13 19:43:55.172 +08:00 [INF] JobToBeExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test
+2020-10-13 19:43:56.172 +08:00 [INF] 2020/10/13 19:43:56CK.Sprite.JobBusiness.TestExecJob,CK.Sprite.JobBusiness CallReflectJob executed
+2020-10-13 19:43:56.173 +08:00 [INF] JobWasExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test#测试简单job，每10秒执行一次#2020/10/13 19:43:45#2020/10/13 19:43:55#2020/10/13 19:44:05
+2020-10-13 19:44:05.174 +08:00 [INF] JobToBeExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test
+2020-10-13 19:44:06.175 +08:00 [INF] 2020/10/13 19:44:06CK.Sprite.JobBusiness.TestExecJob,CK.Sprite.JobBusiness CallReflectJob executed
+2020-10-13 19:44:06.175 +08:00 [INF] JobWasExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test#测试简单job，每10秒执行一次#2020/10/13 19:43:55#2020/10/13 19:44:05#2020/10/13 19:44:15
+2020-10-13 19:44:15.174 +08:00 [INF] JobToBeExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test
+2020-10-13 19:44:16.175 +08:00 [INF] 2020/10/13 19:44:16CK.Sprite.JobBusiness.TestExecJob,CK.Sprite.JobBusiness CallReflectJob executed
+2020-10-13 19:44:16.175 +08:00 [INF] JobWasExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test#测试简单job，每10秒执行一次#2020/10/13 19:44:05#2020/10/13 19:44:15#2020/10/13 19:44:25
+2020-10-13 19:44:25.172 +08:00 [INF] JobToBeExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test
+2020-10-13 19:44:26.175 +08:00 [INF] 2020/10/13 19:44:26CK.Sprite.JobBusiness.TestExecJob,CK.Sprite.JobBusiness CallReflectJob executed
+2020-10-13 19:44:26.176 +08:00 [INF] JobWasExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test#测试简单job，每10秒执行一次#2020/10/13 19:44:15#2020/10/13 19:44:25#2020/10/13 19:44:35
+2020-10-13 19:44:35.171 +08:00 [INF] JobToBeExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test
+2020-10-13 19:44:36.173 +08:00 [INF] 2020/10/13 19:44:36CK.Sprite.JobBusiness.TestExecJob,CK.Sprite.JobBusiness CallReflectJob executed
+2020-10-13 19:44:36.174 +08:00 [INF] JobWasExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test#测试简单job，每10秒执行一次#2020/10/13 19:44:25#2020/10/13 19:44:35#2020/10/13 19:44:45
+2020-10-13 19:44:45.172 +08:00 [INF] JobToBeExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test
+2020-10-13 19:44:46.172 +08:00 [INF] 2020/10/13 19:44:46CK.Sprite.JobBusiness.TestExecJob,CK.Sprite.JobBusiness CallReflectJob executed
+2020-10-13 19:44:46.172 +08:00 [INF] JobWasExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test#测试简单job，每10秒执行一次#2020/10/13 19:44:35#2020/10/13 19:44:45#2020/10/13 19:44:55
+2020-10-13 19:44:55.171 +08:00 [INF] JobToBeExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test
+2020-10-13 19:44:56.173 +08:00 [INF] 2020/10/13 19:44:56CK.Sprite.JobBusiness.TestExecJob,CK.Sprite.JobBusiness CallReflectJob executed
+2020-10-13 19:44:56.174 +08:00 [INF] JobWasExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test#测试简单job，每10秒执行一次#2020/10/13 19:44:45#2020/10/13 19:44:55#2020/10/13 19:45:05
+2020-10-13 19:45:05.171 +08:00 [INF] JobToBeExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test
+2020-10-13 19:45:06.172 +08:00 [INF] 2020/10/13 19:45:06CK.Sprite.JobBusiness.TestExecJob,CK.Sprite.JobBusiness CallReflectJob executed
+2020-10-13 19:45:06.176 +08:00 [INF] JobWasExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test#测试简单job，每10秒执行一次#2020/10/13 19:44:55#2020/10/13 19:45:05#2020/10/13 19:45:15
+2020-10-13 19:45:15.173 +08:00 [INF] JobToBeExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test
+2020-10-13 19:45:16.174 +08:00 [INF] 2020/10/13 19:45:16CK.Sprite.JobBusiness.TestExecJob,CK.Sprite.JobBusiness CallReflectJob executed
+2020-10-13 19:45:16.174 +08:00 [INF] JobWasExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test#测试简单job，每10秒执行一次#2020/10/13 19:45:05#2020/10/13 19:45:15#2020/10/13 19:45:25
+2020-10-13 19:45:25.171 +08:00 [INF] JobToBeExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test
+2020-10-13 19:45:26.172 +08:00 [INF] 2020/10/13 19:45:26CK.Sprite.JobBusiness.TestExecJob,CK.Sprite.JobBusiness CallReflectJob executed
+2020-10-13 19:45:26.172 +08:00 [INF] JobWasExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test#测试简单job，每10秒执行一次#2020/10/13 19:45:15#2020/10/13 19:45:25#2020/10/13 19:45:35
+2020-10-13 19:45:35.171 +08:00 [INF] JobToBeExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test
+2020-10-13 19:45:36.172 +08:00 [INF] 2020/10/13 19:45:36CK.Sprite.JobBusiness.TestExecJob,CK.Sprite.JobBusiness CallReflectJob executed
+2020-10-13 19:45:36.172 +08:00 [INF] JobWasExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test#测试简单job，每10秒执行一次#2020/10/13 19:45:25#2020/10/13 19:45:35#2020/10/13 19:45:45
+2020-10-13 19:45:45.172 +08:00 [INF] JobToBeExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test
+2020-10-13 19:45:46.173 +08:00 [INF] 2020/10/13 19:45:46CK.Sprite.JobBusiness.TestExecJob,CK.Sprite.JobBusiness CallReflectJob executed
+2020-10-13 19:45:46.173 +08:00 [INF] JobWasExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test#测试简单job，每10秒执行一次#2020/10/13 19:45:35#2020/10/13 19:45:45#2020/10/13 19:45:55
+2020-10-13 19:45:55.173 +08:00 [INF] JobToBeExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test
+2020-10-13 19:45:56.174 +08:00 [INF] 2020/10/13 19:45:56CK.Sprite.JobBusiness.TestExecJob,CK.Sprite.JobBusiness CallReflectJob executed
+2020-10-13 19:45:56.174 +08:00 [INF] JobWasExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test#测试简单job，每10秒执行一次#2020/10/13 19:45:45#2020/10/13 19:45:55#2020/10/13 19:46:05
+2020-10-13 19:46:05.172 +08:00 [INF] JobToBeExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test
+2020-10-13 19:46:06.173 +08:00 [INF] 2020/10/13 19:46:06CK.Sprite.JobBusiness.TestExecJob,CK.Sprite.JobBusiness CallReflectJob executed
+2020-10-13 19:46:06.174 +08:00 [INF] JobWasExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test#测试简单job，每10秒执行一次#2020/10/13 19:45:55#2020/10/13 19:46:05#2020/10/13 19:46:15
+2020-10-13 19:46:15.172 +08:00 [INF] JobToBeExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test
+2020-10-13 19:46:16.173 +08:00 [INF] 2020/10/13 19:46:16CK.Sprite.JobBusiness.TestExecJob,CK.Sprite.JobBusiness CallReflectJob executed
+2020-10-13 19:46:16.173 +08:00 [INF] JobWasExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test#测试简单job，每10秒执行一次#2020/10/13 19:46:05#2020/10/13 19:46:15#2020/10/13 19:46:25
+2020-10-13 19:46:25.172 +08:00 [INF] JobToBeExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test
+2020-10-13 19:46:26.173 +08:00 [INF] 2020/10/13 19:46:26CK.Sprite.JobBusiness.TestExecJob,CK.Sprite.JobBusiness CallReflectJob executed
+2020-10-13 19:46:26.173 +08:00 [INF] JobWasExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test#测试简单job，每10秒执行一次#2020/10/13 19:46:15#2020/10/13 19:46:25#2020/10/13 19:46:35
+2020-10-13 19:46:35.171 +08:00 [INF] JobToBeExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test
+2020-10-13 19:46:36.172 +08:00 [INF] 2020/10/13 19:46:36CK.Sprite.JobBusiness.TestExecJob,CK.Sprite.JobBusiness CallReflectJob executed
+2020-10-13 19:46:36.172 +08:00 [INF] JobWasExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test#测试简单job，每10秒执行一次#2020/10/13 19:46:25#2020/10/13 19:46:35#2020/10/13 19:46:45
+2020-10-13 19:46:45.171 +08:00 [INF] JobToBeExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test
+2020-10-13 19:46:46.171 +08:00 [INF] 2020/10/13 19:46:46CK.Sprite.JobBusiness.TestExecJob,CK.Sprite.JobBusiness CallReflectJob executed
+2020-10-13 19:46:46.172 +08:00 [INF] JobWasExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test#测试简单job，每10秒执行一次#2020/10/13 19:46:35#2020/10/13 19:46:45#2020/10/13 19:46:55
+2020-10-13 19:46:55.171 +08:00 [INF] JobToBeExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test
+2020-10-13 19:46:56.172 +08:00 [INF] 2020/10/13 19:46:56CK.Sprite.JobBusiness.TestExecJob,CK.Sprite.JobBusiness CallReflectJob executed
+2020-10-13 19:46:56.172 +08:00 [INF] JobWasExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test#测试简单job，每10秒执行一次#2020/10/13 19:46:45#2020/10/13 19:46:55#2020/10/13 19:47:05
+2020-10-13 19:47:05.171 +08:00 [INF] JobToBeExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test
+2020-10-13 19:47:06.172 +08:00 [INF] 2020/10/13 19:47:06CK.Sprite.JobBusiness.TestExecJob,CK.Sprite.JobBusiness CallReflectJob executed
+2020-10-13 19:47:06.172 +08:00 [INF] JobWasExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test#测试简单job，每10秒执行一次#2020/10/13 19:46:55#2020/10/13 19:47:05#2020/10/13 19:47:15
+2020-10-13 19:47:15.171 +08:00 [INF] JobToBeExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test
+2020-10-13 19:47:16.172 +08:00 [INF] 2020/10/13 19:47:16CK.Sprite.JobBusiness.TestExecJob,CK.Sprite.JobBusiness CallReflectJob executed
+2020-10-13 19:47:16.172 +08:00 [INF] JobWasExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test#测试简单job，每10秒执行一次#2020/10/13 19:47:05#2020/10/13 19:47:15#2020/10/13 19:47:25
+2020-10-13 19:47:25.175 +08:00 [INF] JobToBeExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test
+2020-10-13 19:47:26.176 +08:00 [INF] 2020/10/13 19:47:26CK.Sprite.JobBusiness.TestExecJob,CK.Sprite.JobBusiness CallReflectJob executed
+2020-10-13 19:47:26.176 +08:00 [INF] JobWasExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test#测试简单job，每10秒执行一次#2020/10/13 19:47:15#2020/10/13 19:47:25#2020/10/13 19:47:35
+2020-10-13 19:47:35.171 +08:00 [INF] JobToBeExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test
+2020-10-13 19:47:36.174 +08:00 [INF] 2020/10/13 19:47:36CK.Sprite.JobBusiness.TestExecJob,CK.Sprite.JobBusiness CallReflectJob executed
+2020-10-13 19:47:36.174 +08:00 [INF] JobWasExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test#测试简单job，每10秒执行一次#2020/10/13 19:47:25#2020/10/13 19:47:35#2020/10/13 19:47:45
+2020-10-13 19:47:45.171 +08:00 [INF] JobToBeExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test
+2020-10-13 19:47:46.172 +08:00 [INF] 2020/10/13 19:47:46CK.Sprite.JobBusiness.TestExecJob,CK.Sprite.JobBusiness CallReflectJob executed
+2020-10-13 19:47:46.173 +08:00 [INF] JobWasExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test#测试简单job，每10秒执行一次#2020/10/13 19:47:35#2020/10/13 19:47:45#2020/10/13 19:47:55
+2020-10-13 19:47:55.171 +08:00 [INF] JobToBeExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test
+2020-10-13 19:47:56.172 +08:00 [INF] 2020/10/13 19:47:56CK.Sprite.JobBusiness.TestExecJob,CK.Sprite.JobBusiness CallReflectJob executed
+2020-10-13 19:47:56.172 +08:00 [INF] JobWasExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test#测试简单job，每10秒执行一次#2020/10/13 19:47:45#2020/10/13 19:47:55#2020/10/13 19:48:05
+2020-10-13 19:48:05.171 +08:00 [INF] JobToBeExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test
+2020-10-13 19:48:06.172 +08:00 [INF] 2020/10/13 19:48:06CK.Sprite.JobBusiness.TestExecJob,CK.Sprite.JobBusiness CallReflectJob executed
+2020-10-13 19:48:06.172 +08:00 [INF] JobWasExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test#测试简单job，每10秒执行一次#2020/10/13 19:47:55#2020/10/13 19:48:05#2020/10/13 19:48:15
+2020-10-13 19:48:15.171 +08:00 [INF] JobToBeExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test
+2020-10-13 19:48:16.171 +08:00 [INF] 2020/10/13 19:48:16CK.Sprite.JobBusiness.TestExecJob,CK.Sprite.JobBusiness CallReflectJob executed
+2020-10-13 19:48:16.172 +08:00 [INF] JobWasExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test#测试简单job，每10秒执行一次#2020/10/13 19:48:05#2020/10/13 19:48:15#2020/10/13 19:48:25
+2020-10-13 19:48:25.171 +08:00 [INF] JobToBeExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test
+2020-10-13 19:48:26.173 +08:00 [INF] 2020/10/13 19:48:26CK.Sprite.JobBusiness.TestExecJob,CK.Sprite.JobBusiness CallReflectJob executed
+2020-10-13 19:48:26.173 +08:00 [INF] JobWasExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test#测试简单job，每10秒执行一次#2020/10/13 19:48:15#2020/10/13 19:48:25#2020/10/13 19:48:35
+2020-10-13 19:48:35.171 +08:00 [INF] JobToBeExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test
+2020-10-13 19:48:36.172 +08:00 [INF] 2020/10/13 19:48:36CK.Sprite.JobBusiness.TestExecJob,CK.Sprite.JobBusiness CallReflectJob executed
+2020-10-13 19:48:36.172 +08:00 [INF] JobWasExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test#测试简单job，每10秒执行一次#2020/10/13 19:48:25#2020/10/13 19:48:35#2020/10/13 19:48:45
+2020-10-13 19:48:45.171 +08:00 [INF] JobToBeExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test
+2020-10-13 19:48:46.172 +08:00 [INF] 2020/10/13 19:48:46CK.Sprite.JobBusiness.TestExecJob,CK.Sprite.JobBusiness CallReflectJob executed
+2020-10-13 19:48:46.173 +08:00 [INF] JobWasExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test#测试简单job，每10秒执行一次#2020/10/13 19:48:35#2020/10/13 19:48:45#2020/10/13 19:48:55
+2020-10-13 19:48:55.171 +08:00 [INF] JobToBeExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test
+2020-10-13 19:48:56.173 +08:00 [INF] 2020/10/13 19:48:56CK.Sprite.JobBusiness.TestExecJob,CK.Sprite.JobBusiness CallReflectJob executed
+2020-10-13 19:48:56.173 +08:00 [INF] JobWasExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test#测试简单job，每10秒执行一次#2020/10/13 19:48:45#2020/10/13 19:48:55#2020/10/13 19:49:05
+2020-10-13 19:49:05.171 +08:00 [INF] JobToBeExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test
+2020-10-13 19:49:06.172 +08:00 [INF] 2020/10/13 19:49:06CK.Sprite.JobBusiness.TestExecJob,CK.Sprite.JobBusiness CallReflectJob executed
+2020-10-13 19:49:06.172 +08:00 [INF] JobWasExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test#测试简单job，每10秒执行一次#2020/10/13 19:48:55#2020/10/13 19:49:05#2020/10/13 19:49:15
+2020-10-13 19:49:15.171 +08:00 [INF] JobToBeExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test
+2020-10-13 19:49:16.172 +08:00 [INF] 2020/10/13 19:49:16CK.Sprite.JobBusiness.TestExecJob,CK.Sprite.JobBusiness CallReflectJob executed
+2020-10-13 19:49:16.172 +08:00 [INF] JobWasExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test#测试简单job，每10秒执行一次#2020/10/13 19:49:05#2020/10/13 19:49:15#2020/10/13 19:49:25
+2020-10-13 19:49:25.171 +08:00 [INF] JobToBeExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test
+2020-10-13 19:49:26.171 +08:00 [INF] 2020/10/13 19:49:26CK.Sprite.JobBusiness.TestExecJob,CK.Sprite.JobBusiness CallReflectJob executed
+2020-10-13 19:49:26.172 +08:00 [INF] JobWasExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test#测试简单job，每10秒执行一次#2020/10/13 19:49:15#2020/10/13 19:49:25#2020/10/13 19:49:35
+2020-10-13 19:49:35.175 +08:00 [INF] JobToBeExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test
+2020-10-13 19:49:36.175 +08:00 [INF] 2020/10/13 19:49:36CK.Sprite.JobBusiness.TestExecJob,CK.Sprite.JobBusiness CallReflectJob executed
+2020-10-13 19:49:36.175 +08:00 [INF] JobWasExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test#测试简单job，每10秒执行一次#2020/10/13 19:49:25#2020/10/13 19:49:35#2020/10/13 19:49:45
+2020-10-13 19:49:45.172 +08:00 [INF] JobToBeExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test
+2020-10-13 19:49:46.173 +08:00 [INF] 2020/10/13 19:49:46CK.Sprite.JobBusiness.TestExecJob,CK.Sprite.JobBusiness CallReflectJob executed
+2020-10-13 19:49:46.173 +08:00 [INF] JobWasExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test#测试简单job，每10秒执行一次#2020/10/13 19:49:35#2020/10/13 19:49:45#2020/10/13 19:49:55
+2020-10-13 19:49:55.171 +08:00 [INF] JobToBeExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test
+2020-10-13 19:49:56.172 +08:00 [INF] 2020/10/13 19:49:56CK.Sprite.JobBusiness.TestExecJob,CK.Sprite.JobBusiness CallReflectJob executed
+2020-10-13 19:49:56.172 +08:00 [INF] JobWasExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test#测试简单job，每10秒执行一次#2020/10/13 19:49:45#2020/10/13 19:49:55#2020/10/13 19:50:05
+2020-10-13 19:50:05.172 +08:00 [INF] JobToBeExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test
+2020-10-13 19:50:06.173 +08:00 [INF] 2020/10/13 19:50:06CK.Sprite.JobBusiness.TestExecJob,CK.Sprite.JobBusiness CallReflectJob executed
+2020-10-13 19:50:06.173 +08:00 [INF] JobWasExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test#测试简单job，每10秒执行一次#2020/10/13 19:49:55#2020/10/13 19:50:05#2020/10/13 19:50:15
+2020-10-13 19:50:15.173 +08:00 [INF] JobToBeExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test
+2020-10-13 19:50:16.173 +08:00 [INF] 2020/10/13 19:50:16CK.Sprite.JobBusiness.TestExecJob,CK.Sprite.JobBusiness CallReflectJob executed
+2020-10-13 19:50:16.173 +08:00 [INF] JobWasExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test#测试简单job，每10秒执行一次#2020/10/13 19:50:05#2020/10/13 19:50:15#2020/10/13 19:50:25
+2020-10-13 19:50:25.171 +08:00 [INF] JobToBeExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test
+2020-10-13 19:50:26.173 +08:00 [INF] 2020/10/13 19:50:26CK.Sprite.JobBusiness.TestExecJob,CK.Sprite.JobBusiness CallReflectJob executed
+2020-10-13 19:50:26.173 +08:00 [INF] JobWasExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test#测试简单job，每10秒执行一次#2020/10/13 19:50:15#2020/10/13 19:50:25#2020/10/13 19:50:35
+2020-10-13 19:50:35.172 +08:00 [INF] JobToBeExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test
+2020-10-13 19:50:36.173 +08:00 [INF] 2020/10/13 19:50:36CK.Sprite.JobBusiness.TestExecJob,CK.Sprite.JobBusiness CallReflectJob executed
+2020-10-13 19:50:36.174 +08:00 [INF] JobWasExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test#测试简单job，每10秒执行一次#2020/10/13 19:50:25#2020/10/13 19:50:35#2020/10/13 19:50:45
+2020-10-13 19:50:45.173 +08:00 [INF] JobToBeExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test
+2020-10-13 19:50:46.175 +08:00 [INF] 2020/10/13 19:50:46CK.Sprite.JobBusiness.TestExecJob,CK.Sprite.JobBusiness CallReflectJob executed
+2020-10-13 19:50:46.175 +08:00 [INF] JobWasExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test#测试简单job，每10秒执行一次#2020/10/13 19:50:35#2020/10/13 19:50:45#2020/10/13 19:50:55
+2020-10-13 19:50:55.171 +08:00 [INF] JobToBeExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test
+2020-10-13 19:50:56.172 +08:00 [INF] 2020/10/13 19:50:56CK.Sprite.JobBusiness.TestExecJob,CK.Sprite.JobBusiness CallReflectJob executed
+2020-10-13 19:50:56.172 +08:00 [INF] JobWasExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test#测试简单job，每10秒执行一次#2020/10/13 19:50:45#2020/10/13 19:50:55#2020/10/13 19:51:05
+2020-10-13 19:51:05.172 +08:00 [INF] JobToBeExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test
+2020-10-13 19:51:06.174 +08:00 [INF] 2020/10/13 19:51:06CK.Sprite.JobBusiness.TestExecJob,CK.Sprite.JobBusiness CallReflectJob executed
+2020-10-13 19:51:06.174 +08:00 [INF] JobWasExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test#测试简单job，每10秒执行一次#2020/10/13 19:50:55#2020/10/13 19:51:05#2020/10/13 19:51:15
+2020-10-13 19:51:15.171 +08:00 [INF] JobToBeExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test
+2020-10-13 19:51:16.174 +08:00 [INF] 2020/10/13 19:51:16CK.Sprite.JobBusiness.TestExecJob,CK.Sprite.JobBusiness CallReflectJob executed
+2020-10-13 19:51:16.174 +08:00 [INF] JobWasExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test#测试简单job，每10秒执行一次#2020/10/13 19:51:05#2020/10/13 19:51:15#2020/10/13 19:51:25
+2020-10-13 19:51:25.171 +08:00 [INF] JobToBeExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test
+2020-10-13 19:51:26.173 +08:00 [INF] 2020/10/13 19:51:26CK.Sprite.JobBusiness.TestExecJob,CK.Sprite.JobBusiness CallReflectJob executed
+2020-10-13 19:51:26.173 +08:00 [INF] JobWasExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test#测试简单job，每10秒执行一次#2020/10/13 19:51:15#2020/10/13 19:51:25#2020/10/13 19:51:35
+2020-10-13 19:51:35.171 +08:00 [INF] JobToBeExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test
+2020-10-13 19:51:36.172 +08:00 [INF] 2020/10/13 19:51:36CK.Sprite.JobBusiness.TestExecJob,CK.Sprite.JobBusiness CallReflectJob executed
+2020-10-13 19:51:36.172 +08:00 [INF] JobWasExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test#测试简单job，每10秒执行一次#2020/10/13 19:51:25#2020/10/13 19:51:35#2020/10/13 19:51:45
+2020-10-13 19:51:45.171 +08:00 [INF] JobToBeExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test
+2020-10-13 19:51:46.172 +08:00 [INF] 2020/10/13 19:51:46CK.Sprite.JobBusiness.TestExecJob,CK.Sprite.JobBusiness CallReflectJob executed
+2020-10-13 19:51:46.173 +08:00 [INF] JobWasExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test#测试简单job，每10秒执行一次#2020/10/13 19:51:35#2020/10/13 19:51:45#2020/10/13 19:51:55
+2020-10-13 19:51:55.171 +08:00 [INF] JobToBeExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test
+2020-10-13 19:51:56.172 +08:00 [INF] 2020/10/13 19:51:56CK.Sprite.JobBusiness.TestExecJob,CK.Sprite.JobBusiness CallReflectJob executed
+2020-10-13 19:51:56.172 +08:00 [INF] JobWasExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test#测试简单job，每10秒执行一次#2020/10/13 19:51:45#2020/10/13 19:51:55#2020/10/13 19:52:05
+2020-10-13 19:52:05.171 +08:00 [INF] JobToBeExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test
+2020-10-13 19:52:06.172 +08:00 [INF] 2020/10/13 19:52:06CK.Sprite.JobBusiness.TestExecJob,CK.Sprite.JobBusiness CallReflectJob executed
+2020-10-13 19:52:06.172 +08:00 [INF] JobWasExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test#测试简单job，每10秒执行一次#2020/10/13 19:51:55#2020/10/13 19:52:05#2020/10/13 19:52:15
+2020-10-13 19:52:15.171 +08:00 [INF] JobToBeExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test
+2020-10-13 19:52:16.174 +08:00 [INF] 2020/10/13 19:52:16CK.Sprite.JobBusiness.TestExecJob,CK.Sprite.JobBusiness CallReflectJob executed
+2020-10-13 19:52:16.174 +08:00 [INF] JobWasExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test#测试简单job，每10秒执行一次#2020/10/13 19:52:05#2020/10/13 19:52:15#2020/10/13 19:52:25
+2020-10-13 19:52:25.172 +08:00 [INF] JobToBeExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test
+2020-10-13 19:52:26.173 +08:00 [INF] 2020/10/13 19:52:26CK.Sprite.JobBusiness.TestExecJob,CK.Sprite.JobBusiness CallReflectJob executed
+2020-10-13 19:52:26.173 +08:00 [INF] JobWasExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test#测试简单job，每10秒执行一次#2020/10/13 19:52:15#2020/10/13 19:52:25#2020/10/13 19:52:35
+2020-10-13 19:52:35.171 +08:00 [INF] JobToBeExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test
+2020-10-13 19:52:36.173 +08:00 [INF] 2020/10/13 19:52:36CK.Sprite.JobBusiness.TestExecJob,CK.Sprite.JobBusiness CallReflectJob executed
+2020-10-13 19:52:36.173 +08:00 [INF] JobWasExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test#测试简单job，每10秒执行一次#2020/10/13 19:52:25#2020/10/13 19:52:35#2020/10/13 19:52:45
+2020-10-13 19:52:45.171 +08:00 [INF] JobToBeExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test
+2020-10-13 19:52:46.172 +08:00 [INF] 2020/10/13 19:52:46CK.Sprite.JobBusiness.TestExecJob,CK.Sprite.JobBusiness CallReflectJob executed
+2020-10-13 19:52:46.172 +08:00 [INF] JobWasExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test#测试简单job，每10秒执行一次#2020/10/13 19:52:35#2020/10/13 19:52:45#2020/10/13 19:52:55
+2020-10-13 19:52:55.171 +08:00 [INF] JobToBeExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test
+2020-10-13 19:52:56.171 +08:00 [INF] 2020/10/13 19:52:56CK.Sprite.JobBusiness.TestExecJob,CK.Sprite.JobBusiness CallReflectJob executed
+2020-10-13 19:52:56.172 +08:00 [INF] JobWasExecuted:2aef4b90-1e09-4124-bec5-eba8c54f6222_simple test_job#Test#测试简单job，每10秒执行一次#2020/10/13 19:52:45#2020/10/13 19:52:55#2020/10/13 19:53:05
