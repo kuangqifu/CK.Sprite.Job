@@ -1,5 +1,7 @@
 # .net core通用定时作业
 
+参见：https://www.cnblogs.com/spritekuang/p/13812483.html
+
 ## 使用
   1. 执行99_document\作业数据库设计.sql数据库脚本
   2. 修改02_component\CK.Sprite.Job\CK.Sprite.JobWebHost\appsettings.json中的数据库配置信息
