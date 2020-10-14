@@ -1,0 +1,14 @@
+2020-10-14 14:29:08.709 +08:00 [INF] Default Quartz.NET properties loaded from embedded resource file
+2020-10-14 14:29:08.829 +08:00 [INF] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2020-10-14 14:29:08.831 +08:00 [INF] Quartz Scheduler v.3.1.0.0 created.
+2020-10-14 14:29:08.832 +08:00 [INF] RAMJobStore initialized.
+2020-10-14 14:29:08.836 +08:00 [INF] Scheduler meta-data: Quartz Scheduler (v3.1.0.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-10-14 14:29:08.836 +08:00 [INF] Quartz scheduler 'DefaultQuartzScheduler' initialized
+2020-10-14 14:29:08.836 +08:00 [INF] Quartz scheduler version: 3.1.0.0

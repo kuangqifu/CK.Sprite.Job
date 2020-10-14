@@ -24,4 +24,8 @@
 		<ProjectReference Include="..\..\..\01_framework\CK.Sprite\CK.Sprite.Framework\CK.Sprite.Framework.csproj" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <Folder Include="wwwroot\" />
+	</ItemGroup>
+
 </Project>
