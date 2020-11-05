@@ -60,7 +60,7 @@ namespace CK.Sprite.JobCore
                 IJobConfigRepository jobConfigRepository = ConnectionFactory.GetConnectionProvider(DefaultDbConfig.ConnectionType).GetRepository<IJobConfigRepository>(unitOfWork);
                 var dbJobConfig = await jobConfigRepository.GetAsync(id);
                 await jobConfigRepository.DeleteAsync(dbJobConfig);
-                await _jobManager.ScheduleJob(dbJobConfig);
+                await _jobManager.UnScheduleJob(dbJobConfig);
             });
             Logger.LogInformation($"DeleteJob:{id}");
         }
