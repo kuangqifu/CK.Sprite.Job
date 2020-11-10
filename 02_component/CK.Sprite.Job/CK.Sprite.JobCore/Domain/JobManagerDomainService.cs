@@ -46,9 +46,15 @@ namespace CK.Sprite.JobCore
                 {
                     throw new SpriteException("未找到Job配置信息");
                 }
-                await _jobManager.UnScheduleJob(dbJobConfig);
+                if (dbJobConfig.IsActive)
+                {
+                    await _jobManager.UnScheduleJob(dbJobConfig);
+                }
                 await jobConfigRepository.UpdateAsync(jobConfig);
-                await _jobManager.ScheduleJob(jobConfig);
+                if (jobConfig.IsActive)
+                {
+                    await _jobManager.ScheduleJob(jobConfig);
+                }
             });
             Logger.LogInformation($"UpdateJob:{JsonConvert.SerializeObject(jobConfig)}");
         }
@@ -60,7 +66,10 @@ namespace CK.Sprite.JobCore
                 IJobConfigRepository jobConfigRepository = ConnectionFactory.GetConnectionProvider(DefaultDbConfig.ConnectionType).GetRepository<IJobConfigRepository>(unitOfWork);
                 var dbJobConfig = await jobConfigRepository.GetAsync(id);
                 await jobConfigRepository.DeleteAsync(dbJobConfig);
-                await _jobManager.UnScheduleJob(dbJobConfig);
+                if (dbJobConfig.IsActive)
+                {
+                    await _jobManager.UnScheduleJob(dbJobConfig);
+                }
             });
             Logger.LogInformation($"DeleteJob:{id}");
         }
