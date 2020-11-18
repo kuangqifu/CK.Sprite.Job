@@ -341,6 +341,7 @@ namespace CK.Sprite.JobCore
                             triggerBuilder.WithSimpleSchedule(x =>
                             {
                                 x.WithIntervalInMinutes(jobConfig.SimpleIntervalValue.Value);
+                                SetSimpleRepeatCount(jobConfig, x);
                             });
                             break;
                         case EIntervalUnit.Hour:
